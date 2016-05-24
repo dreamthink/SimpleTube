@@ -3,6 +3,15 @@
 	margin: 3em auto 3em auto;
 }
 
-#search {
+#search-form {
 	margin: 1em;
+}
+
+#search-results {
+	border: 1px solid black;
+	padding: 5px;
+	margin: 1em;
+	width: 50em;
+	height: 15em;
+	display: inline-block;
 }
