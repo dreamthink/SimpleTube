@@ -8,10 +8,16 @@
 }
 
 #search-results {
-	border: 1px solid black;
-	padding: 5px;
-	margin: 1em;
-	width: 50em;
-	height: 15em;
+	border: none;
 	display: inline-block;
+}
+
+#search-results ul {
+	display: inline;
+	list-style: none;
+}
+
+#search-results ul li {
+	display: inline;
+	margin: 1em;
 }
