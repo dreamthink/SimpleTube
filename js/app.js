@@ -26,7 +26,8 @@ function getRequest(searchTerm) {
 		part: "snippet",
 		key: "AIzaSyAxtqf8F_Mrn0R5-_xVtuJqYBEmblG_Y2I",
 		q: searchTerm,
-		type: "video"
+		type: "video",
+		maxResults: 9
 	};
 	$.getJSON(url, params, function(data) {
 		showResults(data.items);
