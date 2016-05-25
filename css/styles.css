@@ -7,6 +7,13 @@
 	margin: 1em;
 }
 
+#search-word {
+	width: 15em;
+	padding: 0.5em;
+	margin: 0.5em;
+	border-radius: 5px;
+}
+
 #search-results {
 	border: none;
 	display: inline-block;
@@ -20,4 +27,14 @@
 #search-results ul li {
 	display: inline;
 	margin: 1em;
+}
+
+.btn-search {
+	background-color: #ffffff;
+	border: 1px solid black;
+}
+.btn-search:hover {
+	background-color: #cc0000;
+	color: #ffffff;
+	border: 1px solid #cc0000;
 }

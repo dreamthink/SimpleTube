@@ -10,7 +10,7 @@ $(document).ready(function() {
 function showResults(results) {
 	var html = "";
 	$.each(results, function(index, value) {
-		html += "<li><a href='https://www.youtube.com/watch?v=" + encodeURIComponent(value.id.videoId) + "'>" + "<img src='" + value.snippet.thumbnails.medium.url + "'></a></li>";
+		html += "<li><a href='https://www.youtube.com/watch?v=" + value.id.videoId + "'>" + "<img src='" + value.snippet.thumbnails.medium.url + "'></a></li>";
 		console.log(value.snippet.thumbnails.medium.url);
 	});
 	$("#search-results ul").html(html);
@@ -32,7 +32,7 @@ function getRequest(searchTerm) {
 
 
 // $(document).ready(function() {
-// 	$.getJSON("https://www.googleapis.com/youtube/v3/search/?part=snippet&key=AIzaSyAxtqf8F_Mrn0R5-_xVtuJqYBEmblG_Y2I&q=meditation", function(data) {
+// 	$.getJSON("https://www.googleapis.com/youtube/v3/search/?part=snippet&key=AIzaSyAxtqf8F_Mrn0R5-_xVtuJqYBEmblG_Y2I&q=gaga", function(data) {
 // 		console.log(data);
 // 	});
 // });

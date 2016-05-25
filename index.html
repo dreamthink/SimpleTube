@@ -3,15 +3,16 @@
 <head>
 	<meta charset="UTF-8">
 	<title>YouTube API</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 	
 <div class="container">
-	<img src="images/youtube-logo.jpg">
+	<a href="https://www.youtube.com/" target="_blank"><img src="images/youtube-logo.jpg"></a>
 	<form id="search-form">
-			<input type="text" name="item" id="search-word">
-			<button type="submit">Submit</button>
+			<input type="text" name="item" id="search-word" placeholder="What would you like to watch?">
+			<button type="submit" class="btn btn-search">Submit</button>
 	</form>
 
 <div id="search-results">
