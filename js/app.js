@@ -1,18 +1,4 @@
 $(document).ready(function() {
-	// $(".nav ul li:nth-child(1)").click(function() {
-	// 	$("#myModal").modal("toggle");
-	// 	$(".main").toggle();
-	// });
-	// $(html).click(function() {
-	// 	$(".overlay-about").hide();
-	// });
-	// $(".nav").click(function(event) {
-	// 	eventstopPropagation();
-	// });
-	// $(".container").click(function() {
-	// 	$(".overlay-about").toggle();
-	// });
-
 	$("#search-form").submit(function(event) {
 		event.preventDefault();
 		var searchTerm = $("#search-word").val();
