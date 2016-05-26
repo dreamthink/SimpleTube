@@ -70,6 +70,9 @@
 	margin: 0.5em;
 }
 
+.nav ul li a {
+	color: #000000;
+}
 .nav ul li a:visited {
 	color: #000000;
 }
