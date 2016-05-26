@@ -44,10 +44,10 @@
 
 .btn-search {
 	background-color: #ffffff;
-	border: 1px solid black;
+	border: 2px solid black;
 }
 .btn-search:hover {
-	background-color: #FF0000;
+	background-color: #E62117;
 	color: #ffffff;
-	border: 1px solid #FF0000;
+	border: 2px solid #E62117;
 }
