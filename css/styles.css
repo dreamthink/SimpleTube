@@ -38,7 +38,7 @@
 }
 
 #search-results ul li {
-	display: inline;
+	display: inline-block;
 	margin: 1em;
 }
 

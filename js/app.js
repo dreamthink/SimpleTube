@@ -4,6 +4,13 @@ $(document).ready(function() {
 		var searchTerm = $("#search-word").val();
 		getRequest(searchTerm);
 		$("#search-form")[0].reset();
+		$('.fancybox-media').fancybox({
+			openEffect  : 'none',
+			closeEffect : 'none',
+			helpers : {
+			media : {}
+			}
+		});
 	});
 });
 
@@ -11,7 +18,7 @@ function showResults(results) {
 	var html = "";
 	$.each(results, function(index, value) {
 		if (value.id.kind == "youtube#video") {
-			html += "<li><a href='https://www.youtube.com/watch?v=" + value.id.videoId + "' target=/'_blank'>" + "<p>" + value.snippet.title + "</p>" + "<img src='" + value.snippet.thumbnails.medium.url + "'></a></li>";
+			html += "<li><a class='fancybox-media' rel='group' href='https://www.youtube.com/watch?v=" + value.id.videoId + "'>" + "<p>" + value.snippet.title + "</p>" + "<img src='" + value.snippet.thumbnails.medium.url + "'></a></li>";
 		} else {
 			html += "";
 		};
