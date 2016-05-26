@@ -6,33 +6,40 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-	<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
-	<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+	<!-- <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" /> -->
+	<!-- <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" /> -->
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-	
 <div class="container">
-	<div class="name">Simple<span>&nbsp;Tube</span></div>
-	<form id="search-form">
+	<div class="nav">
+		<ul>
+			<li class="about">ABOUT</li>
+		</ul>
+	</div>
+	<div class="overlay-about">
+		<p>Experience YouTube with minimal distractions. No comments or metrics to detract from video content.</p>
+		<p>Just videos. Simple.</p>
+		<p>Created by <a href="http://www.iamemilychen.com" target="_blank">Emily Chen</a></p>
+	</div>
+	<div class="main">
+		<div class="name">Simple<span>&nbsp;Tube</span></div>
+		<form id="search-form">
 			<input type="text" name="item" id="search-word" placeholder="Search">
 			<button type="submit" class="btn btn-search">Submit</button>
-	</form>
-
-<div id="search-results">
-	<ul>
-		
-	</ul>
-</div>
-
+		</form>
+	<div id="search-results">
+		<ul>
+		</ul>
+	</div>
 </div>
 
 <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
 <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
-<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
-<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
-<script src="js/app.js"></script>
+<!-- <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+ --><!-- <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+ --><script src="js/app.js"></script>
 </body>
 </html>

@@ -1,4 +1,18 @@
 $(document).ready(function() {
+	// $(".nav ul li:nth-child(1)").click(function() {
+	// 	$("#myModal").modal("toggle");
+	// 	$(".main").toggle();
+	// });
+	// $(html).click(function() {
+	// 	$(".overlay-about").hide();
+	// });
+	// $(".nav").click(function(event) {
+	// 	eventstopPropagation();
+	// });
+	// $(".container").click(function() {
+	// 	$(".overlay-about").toggle();
+	// });
+
 	$("#search-form").submit(function(event) {
 		event.preventDefault();
 		var searchTerm = $("#search-word").val();
@@ -18,7 +32,7 @@ function showResults(results) {
 	var html = "";
 	$.each(results, function(index, value) {
 		if (value.id.kind == "youtube#video") {
-			html += "<li><a class='fancybox-media' rel='group' href='https://www.youtube.com/watch?v=" + value.id.videoId + "'>" + "<p>" + value.snippet.title + "</p>" + "<img src='" + value.snippet.thumbnails.medium.url + "'></a></li>";
+			html += "<li><a class='fancybox-media' href='https://www.youtube.com/watch?v=" + value.id.videoId + "'>" + "<p>" + value.snippet.title + "</p>" + "<img src='" + value.snippet.thumbnails.medium.url + "'></a></li>";
 		} else {
 			html += "";
 		};

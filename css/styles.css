@@ -1,6 +1,44 @@
-.container {
+.nav {
+	font-family: 'Fjalla One';
+	font-size: 1.5em;
+/*	border: 1px solid black;*/
+	display: inline-block;
+	width: 100%;
+}
+
+.nav ul {
+	list-style: none;
+/*	border: 1px solid red;*/
+}
+
+.nav ul li {
+	display: inline-block;
+/*	border: 1px solid blue;*/
+	margin: 0.5em;
+}
+
+.overlay-about {
+	border: 1px solid black;
+	margin: 1em 3em;
+	display: none;
+}
+
+.overlay-about a {
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+
+.overlay-about a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+.main {
+	width: 100%;
 	text-align: center;
-	margin: 3em auto 3em auto;
+	margin: 0em auto 3em auto;
+/*	border: 1px solid black;*/
 }
 
 .name {
