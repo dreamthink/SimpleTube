@@ -67,7 +67,7 @@
 .nav ul li {
 	display: inline-block;
 /*	border: 1px solid blue;*/
-	margin: 0.5em;
+	margin: 1em;
 }
 
 .nav ul li a {
@@ -79,23 +79,6 @@
 
 .nav ul li a:hover {
 	color: #000000;
-	text-decoration: underline;
-}
-
-.overlay-about {
-	border: 1px solid black;
-	margin: 1em 3em;
-	display: none;
-}
-
-.overlay-about a {
-	text-decoration: none;
-	font-weight: bold;
-	color: black;
-}
-
-.overlay-about a:hover {
-	color: black;
 	text-decoration: underline;
 }
 

@@ -13,6 +13,27 @@
 <body>
 <div class="container">
 
+<!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  About
+</button> -->
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">SimpleTube</h4>
+      </div>
+      <div class="modal-body">
+        <p>Experience YouTube with minimal distractions. No comments or metrics to detract from video content.</p>
+		<p>Just videos. Simple.</p>
+		<p>Created by <a href="http://www.iamemilychen.com" target="_blank">Emily Chen</a></p>
+      </div>
+    </div>
+  </div>
+</div><!-- 
 <div id="openModal" class="modalDialog">
 	<div>
 		<a href="#close" title="Close" class="close">X</a>
@@ -21,16 +42,11 @@
 		<p>Just videos. Simple.</p>
 		<p>Created by <a href="http://www.iamemilychen.com" target="_blank">Emily Chen</a></p>
 	</div>
-</div>
+</div> -->
 	<div class="nav">
 		<ul>
-			<li class="about"><a href="#openModal">ABOUT</a></li>
+			<li class="about" data-toggle="modal" data-target="#myModal">ABOUT</li>
 		</ul>
-	</div>
-	<div class="overlay-about">
-		<p>Experience YouTube with minimal distractions. No comments or metrics to detract from video content.</p>
-		<p>Just videos. Simple.</p>
-		<p>Created by <a href="http://www.iamemilychen.com" target="_blank">Emily Chen</a></p>
 	</div>
 	<div class="main">
 		<div class="name">Simple<span>&nbsp;Tube</span></div>
@@ -48,8 +64,7 @@
 <script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
 <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
-<!-- <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
- --><!-- <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
- --><script src="js/app.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+ <script src="js/app.js"></script>
 </body>
 </html>
