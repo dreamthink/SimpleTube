@@ -114,18 +114,27 @@
 }
 
 #search-results-wrapper {
-	display: flex;
+	/*display: flex;
 	flex-direction: row;
 	justify-content: center;
-	flex-wrap: wrap;
+	flex-wrap: wrap;*/
+	margin: 0 auto 3em auto;
 }
 
 .box {
-	margin: 0 0.5em 0 0.5em;
+	margin: 0 auto 0 auto;
+	/*border: 1px solid black;*/
 }
 
 .box-image {
 	border-radius: 5px;
+	width: 100%;
+}
+
+.title {
+	height: 3em;
+	width: 100%;
+	/*border: 1px solid red;*/
 }
 
 /*.search-results {

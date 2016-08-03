@@ -17,7 +17,8 @@ function showResults(results) {
 	var html = "";
 	$.each(results, function(index, value) {
 		if (value.id.kind == "youtube#video") {
-			html += "<div class='col-md-4 box'><a class='fancybox-media' href='https://www.youtube.com/watch?v=" + value.id.videoId + "'>" + "<p>" + value.snippet.title + "</p>" + "<img class='box-image' src='" + value.snippet.thumbnails.medium.url + "'></a></div>";
+		  // html += "<div class='col-md-12 box'><a class='fancybox-media' href='https://www.youtube.com/watch?v=" + value.id.videoId + "'>" + "<p>" + value.snippet.title + "</p>" + "<img class='box-image' src='" + value.snippet.thumbnails.medium.url + "'></a></div>";
+			html += "<div class='box-wrapper'><div class='col-md-4 box'><a class='fancybox-media' href='https://www.youtube.com/watch?v=" + value.id.videoId + "'>" + "<div class='title'>" + value.snippet.title + "</div>" + "<img class='box-image' src='" + value.snippet.thumbnails.medium.url + "'></a></div></div>";
 		} else {
 			html += "";
 		};
