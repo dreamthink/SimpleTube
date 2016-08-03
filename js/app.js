@@ -12,19 +12,18 @@ $(document).ready(function() {
 			}
 		});
 	});
-});
 
 function showResults(results) {
 	var html = "";
 	$.each(results, function(index, value) {
 		if (value.id.kind == "youtube#video") {
-			html += "<li><a class='fancybox-media' href='https://www.youtube.com/watch?v=" + value.id.videoId + "'>" + "<p>" + value.snippet.title + "</p>" + "<img src='" + value.snippet.thumbnails.medium.url + "'></a></li>";
+			html += "<div class='col-md-4 box'><a class='fancybox-media' href='https://www.youtube.com/watch?v=" + value.id.videoId + "'>" + "<p>" + value.snippet.title + "</p>" + "<img class='box-image' src='" + value.snippet.thumbnails.medium.url + "'></a></div>";
 		} else {
 			html += "";
 		};
 		console.log(value.snippet.thumbnails.medium.url);
 	});
-	$("#search-results ul").html(html);
+	$(".search-results").html(html);
 };
 
 function getRequest(searchTerm) {
@@ -34,16 +33,19 @@ function getRequest(searchTerm) {
 		key: "AIzaSyAxtqf8F_Mrn0R5-_xVtuJqYBEmblG_Y2I",
 		q: searchTerm,
 		type: "video",
-		maxResults: 9
+		maxResults: 12
 	};
 	$.getJSON(url, params, function(data) {
 		showResults(data.items);
 	});
 };
 
+});
+
+
+
 // $(document).ready(function() {
 // 	$.getJSON("https://www.googleapis.com/youtube/v3/search/?part=snippet&key=AIzaSyAxtqf8F_Mrn0R5-_xVtuJqYBEmblG_Y2I&q=lady%20gaga", function(data) {
 // 		console.log(data);
 // 	});
 // });
-
