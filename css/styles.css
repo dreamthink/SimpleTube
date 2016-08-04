@@ -123,7 +123,8 @@
 
 .box {
 	margin: 0 auto 0 auto;
-	/*border: 1px solid black;*/
+	border: 3px solid white;
+	padding-bottom: 1em;
 }
 
 .box-image {
@@ -136,21 +137,6 @@
 	width: 100%;
 	/*border: 1px solid red;*/
 }
-
-/*.search-results {
-	border: none;
-	display: inline-block;
-}
-*/
-/*.search-results ul {
-	display: inline;
-	list-style: none;
-}*/
-
-/*.search-results ul li {
-	display: inline-block;
-	margin: 1em;
-}*/
 
 .btn-search {
 	background-color: #ffffff;
@@ -166,4 +152,10 @@
 	color: black;
 	padding: 1em;
 	font-weight: bold;
+}
+
+@media (max-width: 1000px) {
+	.box {
+
+	}
 }
