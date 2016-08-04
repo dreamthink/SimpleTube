@@ -57,20 +57,26 @@
 /*	border: 1px solid black;*/
 	display: inline-block;
 	width: 100%;
+	margin: 1em 0 0 1em;
 }
 
+.nav:hover {
+	text-decoration: underline;
+}
+
+/*
 .nav ul {
 	list-style: none;
-/*	border: 1px solid red;*/
-}
+	border: 1px solid red;
+}*/
 
-.nav ul li {
+/*.nav ul li {
 	display: inline-block;
-/*	border: 1px solid blue;*/
+	border: 1px solid blue;
 	margin: 1em;
 }
-
-.nav ul li a {
+*/
+/*.nav ul li a {
 	color: #000000;
 }
 .nav ul li a:visited {
@@ -80,13 +86,13 @@
 .nav ul li a:hover {
 	color: #000000;
 	text-decoration: underline;
-}
+}*/
 
 .main {
 	width: 100%;
 	text-align: center;
-	margin: 0em auto 3em auto;
-/*	border: 1px solid black;*/
+	margin: 0em auto 0em auto;
+	/*border: 1px solid black;*/
 }
 
 .name {
