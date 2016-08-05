@@ -54,10 +54,12 @@
 .nav {
 	font-family: 'Fjalla One';
 	font-size: 1.5em;
-/*	border: 1px solid black;*/
-	display: inline;
-	width: 100%;
-	margin: 1em 0 0 1em;
+	/*border: 1px solid black;*/
+	display: inline-block;
+/*	width: 100%;*/
+	margin: 1em 0 0 7em;
+	/*padding: 1em;*/
+	text-transform: uppercase;
 }
 
 .nav:hover {
@@ -129,4 +131,3 @@
 	padding: 1em;
 	font-weight: bold;
 }
-

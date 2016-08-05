@@ -11,27 +11,25 @@
 	<link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
 </head>
 <body>
-<div class="container">
 
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">SimpleTube</h4>
-      </div>
-      <div class="modal-body">
-        <p>Experience YouTube with minimal distractions.</p>
-		<p>Just videos. Simple.</p>
-		<p>Created by <a href="http://www.emilychen.net" target="_blank">Emily Chen</a></p>
-      </div>
-    </div>
-  </div>
-</div>
-
-	<div class="nav">
-			<span class="about" data-toggle="modal" data-target="#myModal">ABOUT</span>
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="myModalLabel">SimpleTube</h4>
+	      </div>
+	      <div class="modal-body">
+	        <p>Experience YouTube with minimal distractions.</p>
+			<p>Just videos. Simple.</p>
+			<p>Created by <a href="http://www.emilychen.net" target="_blank">Emily Chen</a></p>
+	      </div>
+	    </div>
+	  </div>
 	</div>
+
+	<div class="nav" data-toggle="modal" data-target="#myModal">About</div>
+
 	<div class="main">
 		<div class="name">Simple<span>&nbsp;Tube</span></div>
 		<form id="search-form">
@@ -41,10 +39,10 @@
 	</div>
 
 	<div id="search-results-wrapper">
-	<div class="container">
-		<div class="row">
-			<div class="search-results"></div>
-	</div>
+		<div class="container">
+			<div class="row">
+				<div class="search-results"></div>
+			</div>
 		</div>
 	</div>
 
