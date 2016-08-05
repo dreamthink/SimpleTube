@@ -55,7 +55,7 @@
 	font-family: 'Fjalla One';
 	font-size: 1.5em;
 /*	border: 1px solid black;*/
-	display: inline-block;
+	display: inline;
 	width: 100%;
 	margin: 1em 0 0 1em;
 }
@@ -130,8 +130,3 @@
 	font-weight: bold;
 }
 
-@media (max-width: 1000px) {
-	.box {
-
-	}
-}
