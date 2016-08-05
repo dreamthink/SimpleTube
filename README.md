@@ -1,5 +1,5 @@
 
-<h3>SimpleTube</h3>
+<h1>SimpleTube</h1>
 
 Experience YouTube with minimal distractions.
 
