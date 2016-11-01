@@ -12,7 +12,7 @@ Additional features:
 	<li>Returns 48 YouTube videos relevant to your search</li>
 </ul>
 
-<a href="https://dreamthink.github.io/simpletube" target="_blank"><img src="images/simpletube.gif"></a>
+<a href="https://dreamthink.github.io/simpletube" target="_blank"><img src="images/simpletube.gif" width="500px"></a>
 
 <h3>BUILT WITH:</h3>
 HTML, CSS, jQuery, JavaScript, Bootstrap, YouTube API, <a href="http://fancyapps.com/fancybox/" target="_blank">fancyBox Lightbox</a>
